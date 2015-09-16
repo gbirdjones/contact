@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+}
+section {
+	background-color: black;
+	padding: 3em 4em;
+	margin: 0 auto;
+
+}
+
+form {
+	padding: 1em 1.5em;
+	margin: 0 auto;
+	width: 60%;
+	background-color: white;
+}
+
+#box4 {
+	height: 6em;
+}
+p {
+	color: red;
+}
+#success {
+	z-index: 3;
+	background-color: black;
+	float: left;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 4em 1em;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+#sucInner {
+	z-index: 4;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	padding: 2em 2em;
+}
